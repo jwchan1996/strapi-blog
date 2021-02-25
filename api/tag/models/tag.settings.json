@@ -13,11 +13,8 @@
     "title": {
       "type": "string",
       "unique": false,
-      "required": true
-    },
+      "required": true,
     "posts": {
-      "via": "tags",
-      "collection": "post",
       "dominant": true
     }
   }

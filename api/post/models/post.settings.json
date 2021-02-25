@@ -19,18 +19,18 @@
       "type": "richtext"
     },
     "cover": {
-      "model": "file",
+      "collection": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
-        "files",
-        "videos"
+        "images"
       ],
       "plugin": "upload",
       "required": false
     },
     "is_publish": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": false,
+      "required": true
     },
     "tags": {
       "collection": "tag",
